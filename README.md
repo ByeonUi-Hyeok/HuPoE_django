@@ -25,8 +25,7 @@
 ![20211205_014826](https://user-images.githubusercontent.com/84761763/144717566-e9187c72-b6f1-480a-933a-8295591ee489.png)
 
 ### 데이터 셋
- - [학습된 데이터 셋](https://drive.google.com/file/d/1GcxSzzDbk1N9Z6yUkTPrt-YcfjGv6lJJ/view?usp=sharing) 다운 받아 파일 내에 압축 풀어서 사용
- - models 폴더는 해당폴더에 놓고 사용, font 내 폴더는 windows/font에 복사하거나 실행하여서 사용
+ - [학습된 데이터 셋](https://drive.google.com/file/d/1KpPSksGo1gGXI0DcZcehlY5klXmkchPK/view?usp=sharing) 다운 받아 파일 내에 압축 풀어서 사용
  - 학습결과
 
 ![20211205_182457](https://user-images.githubusercontent.com/84761763/144740993-b4b5e421-9381-4027-a6aa-afdef566c84f.png)
