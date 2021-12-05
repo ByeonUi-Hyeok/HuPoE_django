@@ -46,33 +46,11 @@
 
 ## 구성
 ### 화면구성
-#### db.py
- - QtSql.QSqlQuery 클래스의 exec_ 메소드를 이용하여 쿼리문으로 데이터베이스에 사용자 정보 작성가능
- - 예제
-    - create table userdata (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, username VARCHAR(100) NOT NULL, password VARCHAR(100) NOT NULL);
-    - insert into userdata(username, password) values('admin', '1234');
-#### loginApp.py, LoginUi.py
- ![main](https://user-images.githubusercontent.com/84761763/144741765-7833dc0b-bb97-4665-b899-c6ab58ed7583.png)
- - db.py에서 만든 데이터베이스를 기반으로 쿼리문을 조회하여 아이디와 비밀번호가 존재하는 것인지 확인한 후 로그인 합니다.
- - 1차인증
-#### face_r.py
- ![1](https://user-images.githubusercontent.com/84761763/144741535-4197f07f-99c0-4318-b3c3-51e03b579430.png)
- - 얼굴인식 페이지
- - Thread 클래스의 run 메소드의 cap = cv2.VideoCapture(0)를 수정하여 외부 카메라, 내부 카메라, 동영상 구분가능
- - 얼굴이 등록된 사람만 인증 가능합니다.(현재 삭제, 모두 통과가능)
- - 2차인증
 
-#### loading_main.py, ui_splash_screen.py
- ![loading](https://user-images.githubusercontent.com/84761763/144741914-f1d4379d-279f-4f5f-9c5b-6a26e68df4a0.png)
- - 인간자세 추정 모델이 구동되기까지 시간이 오래걸리기 때문에 구성한 로딩페이지입니다.
-
-#### testfinal_main.py
- ![파이널](https://user-images.githubusercontent.com/84761763/144741984-6a44af60-d827-40a1-ae1b-7435ad78abd5.png)
- - 최종화면입니다.
- - 기타 기능 및 키는 아직 미구현입니다.
 
 ## 결과
- - [시뮬레이션 동영상 링크](https://youtu.be/lE7QpYeMWs0) 
+ - [시뮬레이션 동영상 링크(PC)](https://youtu.be/WNNZaweuhTI)
+ - [시뮬레이션 동영상 링크(MOBILE)](https://www.youtube.com/watch?v=syuUuSZ4HRs) 
  - 개발 스택
 
  ![로컬 스택](https://user-images.githubusercontent.com/84761763/144742637-9a6d2284-e31f-4cc5-95a3-3709df1d2c3e.png)
