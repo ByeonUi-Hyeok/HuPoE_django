@@ -25,8 +25,7 @@
 ![20211205_014826](https://user-images.githubusercontent.com/84761763/144717566-e9187c72-b6f1-480a-933a-8295591ee489.png)
 
 ### 데이터 셋
- - [학습된 데이터 셋](https://drive.google.com/file/d/1GcxSzzDbk1N9Z6yUkTPrt-YcfjGv6lJJ/view?usp=sharing) 다운 받아 파일 내에 압축 풀어서 사용
- - models 폴더는 해당폴더에 놓고 사용, font 내 폴더는 windows/font에 복사하거나 실행하여서 사용
+ - [학습된 데이터 셋](https://drive.google.com/file/d/1KpPSksGo1gGXI0DcZcehlY5klXmkchPK/view?usp=sharing) 다운 받아 파일 내에 압축 풀어서 사용
  - 학습결과
 
 ![20211205_182457](https://user-images.githubusercontent.com/84761763/144740993-b4b5e421-9381-4027-a6aa-afdef566c84f.png)
@@ -45,8 +44,20 @@
 
 ## 구성
 ### 화면구성
+#### 메인화면
+![웹 메인화면](https://user-images.githubusercontent.com/84761763/144743429-8a7354fe-3ad0-4021-8227-3f96742e456e.png)
+![웹 로그인](https://user-images.githubusercontent.com/84761763/144743434-bd06c117-e044-4185-96d8-b125b2d074c2.png)
 
+ - 데이터베이스에서 사용자를 질의하여 있는지 확인하는 1차인증
+#### 카메라 화면
 
+ - 모델이 적용되지않은 순수 화면으로 CCTV를 볼 수 있습니다.
+#### 모델적용 화면
+![웹 모델 적용](https://user-images.githubusercontent.com/84761763/144743438-16d552e0-740b-455f-a63d-fdfe9c91d514.png)
+
+ - 얼굴인식(Dlib), 포즈추정(mediapipe) 적용
+ - 자세를 추정하여 정상자세(앉기, 걷기) 비정상자세(쓰러진 자세) 구분
+ - 비정상 자세 30초, 60초 단위로 경고메세지, 알람 발생 및 관리자에게 카카오톡 전송 
 ## 결과
  - [시뮬레이션 동영상 링크(PC)](https://youtu.be/WNNZaweuhTI)
  - [시뮬레이션 동영상 링크(MOBILE)](https://www.youtube.com/watch?v=syuUuSZ4HRs) 
