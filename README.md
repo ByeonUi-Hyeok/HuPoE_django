@@ -47,6 +47,8 @@
 #### 메인화면
 ![웹 메인화면](https://user-images.githubusercontent.com/84761763/144743429-8a7354fe-3ad0-4021-8227-3f96742e456e.png)
 ![웹 로그인](https://user-images.githubusercontent.com/84761763/144743434-bd06c117-e044-4185-96d8-b125b2d074c2.png)
+ - 초기 설정 ID / PW
+    - tw / 1234
 
  - 데이터베이스에서 사용자를 질의하여 있는지 확인하는 1차인증
 #### 카메라 화면
