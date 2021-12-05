@@ -2,11 +2,11 @@
 
 | **제목**   |중/소 산업현장 안전시스템 프로젝트 |
 | :---: | :---: | 
-| **부제**   |Human Pose Estimation Project with PyQt, Pyside|
+| **부제**   |Human Pose Estimation Project with Django|
 | **개발자**   |`변의혁`, `구태완`|
 | **개발기간**   |`2021.09` ~ `2021.11 `| 
 | **포트폴리오 링크** | [포트폴리오 보기](https://www.miricanvas.com/v/1ojqh0) |
-| **사용기술** | `Python`,`Tensorflow`,`Keras`,`Mediapipe`,`Dlib`,`PyQt5`,`Pyside2` |
+| **사용기술** | `Python`,`Tensorflow`,`Keras`,`Mediapipe`,`Dlib`,`Django`,`JavaScript` |
 | **버전** | v0.0 |
 
 ## 목차
@@ -53,5 +53,6 @@
  - [시뮬레이션 동영상 링크(MOBILE)](https://www.youtube.com/watch?v=syuUuSZ4HRs) 
  - 개발 스택
 
- ![로컬 스택](https://user-images.githubusercontent.com/84761763/144742637-9a6d2284-e31f-4cc5-95a3-3709df1d2c3e.png)
+![장고스택](https://user-images.githubusercontent.com/84761763/144742934-7b1ba0e6-130f-4930-b23e-36c5fd8bed16.png)
+
 
